@@ -30,9 +30,9 @@ bot.on('message', async message => {
             .addField("//hug", "La commande + le pseudo de la personne")
             .addField("//kiss", "La commande + le pseudo de la personne")
             .addField("//slap", "La commande + le pseudo de la personne")
-            .addField("//bluch", "La commande + le pseudo de la personne")
+            .addField("//blush", "La commande + le pseudo de la personne")
             .addField("//8ball", "La commande + la question")
-            .addField("//blague", "Je te raconte une blague super drôle")
+            .addField("//joke", "Je te raconte une blague super drôle")
             .setFooter("Crée par le Maître Suprême des Nekos :3")
 
         message.channel.sendEmbed(help_embed);
