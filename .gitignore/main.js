@@ -25,7 +25,7 @@ bot.on('message', async message => {
         var help_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
             .setTitle("Mes Commandes")
-            .setThumbnail("https://i.imgur.com/03BSawt.jpg")
+            .setThumbnail("https://i.imgur.com/iHE4asj.png")
             .addField("//pat", "La commande + le pseudo de la personne")
             .addField("//hug", "La commande + le pseudo de la personne")
             .addField("//kiss", "La commande + le pseudo de la personne")
