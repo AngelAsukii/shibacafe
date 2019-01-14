@@ -4,6 +4,6 @@
 	],
 	"roleName": "rainbow",
 	"colors": 14,
-	"speed": 30000,
+	"speed": 60000,
 	"logging": false
 }
