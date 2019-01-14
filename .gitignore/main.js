@@ -12,11 +12,11 @@ const size    = rainbowrole.colors;
 const rainbow = new Array(size);
 
 for (var i=0; i<size; i++) {
-  var red   = sin_to_hex(i, 0 * Math.PI * 2/4); // 0   deg
+  var red   = sin_to_hex(i, 0 * Math.PI * 1/4); // 0   deg
   var blue  = sin_to_hex(i, 1 * Math.PI * 1/4); // 120 deg
-  var green = sin_to_hex(i, 2 * Math.PI * 3/4); // 240 deg
+  var green = sin_to_hex(i, 2 * Math.PI * 1/4); // 240 deg
 
-  rainbow[i] = '#'+ red + blue + green;
+  rainbow[i] = '#'+ blue + red + green;
 }
 
 function sin_to_hex(i, phase) {
