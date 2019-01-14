@@ -21,7 +21,7 @@ for (var i=0; i<size; i++) {
 
 function sin_to_hex(i, phase) {
   var sin = Math.sin(Math.PI / size * 3 * i + phase);
-  var int = Math.floor(sin * 137) + 128;
+  var int = Math.floor(sin * 137) + 138;
   var hex = int.toString(16);
 
   return hex.length === 1 ? '0'+hex : hex;
