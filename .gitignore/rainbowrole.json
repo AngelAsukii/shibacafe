@@ -1,3 +1,9 @@
 {
-    "randomize_delay": 3
+	"servers": [
+		"442678814640701450"
+	],
+	"roleName": "rainbow",
+	"colors": 12,
+	"speed": 15000,
+	"logging": false
 }
