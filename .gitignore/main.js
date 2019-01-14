@@ -16,7 +16,7 @@ for (var i=0; i<size; i++) {
   var blue  = sin_to_hex(i, 1 * Math.PI * 1/4); // 120 deg
   var green = sin_to_hex(i, 2 * Math.PI * 1/4); // 240 deg
 
-  rainbow[i] = '#'+ blue + red + green;
+  rainbow[i] = '#'+ blue + green + red;
 }
 
 function sin_to_hex(i, phase) {
