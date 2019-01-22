@@ -63,14 +63,9 @@ bot.on('message', async message => {
             .setColor('RANDOM')
             .setTitle("Mes Commandes")
             .setThumbnail("https://i.imgur.com/iHE4asj.png")
-            .addField("//pat", "La commande + le pseudo de la personne")
-            .addField("//hug", "La commande + le pseudo de la personne")
-            .addField("//kiss", "La commande + le pseudo de la personne")
-            .addField("//slap", "La commande + le pseudo de la personne")
-            .addField("//blush", "La commande + le pseudo de la personne")
-            .addField("//8ball", "La commande + la question")
-            .addField("//joke", "Je te raconte une blague super drôle")
-            .setFooter("Crée par le Maître Suprême des Nekos :3")
+            .addField("Préfix", "``/``")
+            .addField("Fun", "`hug` `kiss` `slap` `blush` `8ball` `joke`")
+            .setFooter("Create by Tσhʀυ | Ληɢεł~Sαмα#1111 (Maître Suprême des Nekos :3)")
 
         message.channel.sendEmbed(help_embed);
         console.log("On a demandé mes commandes !");
