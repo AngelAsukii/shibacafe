@@ -63,8 +63,8 @@ bot.on('message', async message => {
             .setColor('RANDOM')
             .setTitle("Mes Commandes")
             .setThumbnail("https://i.imgur.com/iHE4asj.png")
-            .addField("Préfix", "``/``")
-            .addField("Fun", "`hug` `kiss` `slap` `blush` `8ball` `joke`")
+            .addField("Préfix", "``//``")
+            .addField("Fun", "`hug`, `kiss`, `slap`, `blush`, `8ball`, `joke`")
             .setFooter("Create by Tσhʀυ | Ληɢεł~Sαмα#1111 (Maître Suprême des Nekos :3)")
 
         message.channel.sendEmbed(help_embed);
