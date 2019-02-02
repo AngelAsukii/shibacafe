@@ -73,6 +73,14 @@ bot.on('message', async message => {
 
     //--------------------------------------------------------FUN--------------------------------------------------
 
+	
+	
+    //Commande ping pong
+    if (message.content.startsWith(prefix + "Ping")) {
+	
+	message.channel.send("Pong !");
+	    
+    }    
     //Commande joke
     if (message.content.startsWith(prefix + "joke")) {
 
