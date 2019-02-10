@@ -206,7 +206,7 @@ bot.on('message', async message => {
     
         var blush_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
-            .setTitle(message.author.username + " **rougis devant** " + `${user.displayName}`)
+            .setTitle(message.author.username + " **e-rougis devant** " + `${user.displayName}`)
             .setImage(gif3)
         message.channel.send(blush_embed);
     
@@ -241,7 +241,7 @@ bot.on('message', async message => {
     
         var hug_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
-            .setTitle(message.author.username + " **fait un câlin à** " + `${user.displayName}`)
+            .setTitle(message.author.username + " **fait un e-câlin à** " + `${user.displayName}`)
             .setImage(gif4)
         message.channel.send(hug_embed);
 
@@ -281,7 +281,7 @@ bot.on('message', async message => {
     
         var kiss_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
-            .setTitle(message.author.username + " **embrasse** " + `${user.displayName}`)
+            .setTitle(message.author.username + " **fait un e-embrassement à** " + `${user.displayName}`)
             .setImage(gif5)
         message.channel.send(kiss_embed);
 
