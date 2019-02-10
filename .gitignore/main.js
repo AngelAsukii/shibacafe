@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const fs = require("fs");
 var bot = new Discord.Client();
-var prefix = ("//");
+var prefix = ("e-");
 const reponse = JSON.parse(fs.readFileSync('./reponse.json', "utf8"));
 const blague = JSON.parse(fs.readFileSync('./blague.json', "utf8"));
 const ytdl = require('ytdl-core');
@@ -63,7 +63,7 @@ bot.on('message', async message => {
             .setColor('RANDOM')
             .setTitle("Mes Commandes")
             .setThumbnail("https://i.imgur.com/iHE4asj.png")
-            .addField("Préfix", "``//``")
+            .addField("Préfix", "``e-``")
             .addField("Fun", "`hug`, `kiss`, `slap`, `blush`, `8ball`, `joke`")
             .setFooter("Create by Tσhʀυ | Ληɢεł~Sαмα#1111 (Maître Suprême des Nekos :3)")
 
@@ -136,7 +136,7 @@ bot.on('message', async message => {
 
         var caresse_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
-            .setTitle(message.author.username + " **caresse** " + `${user.displayName}`)
+            .setTitle(message.author.username + " ** fait une e-caresse à** " + `${user.displayName}`)
             .setImage(gif)
         message.channel.send(caresse_embed);
 
@@ -171,7 +171,7 @@ bot.on('message', async message => {
 
         var slap_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
-            .setTitle(message.author.username + " **gifle** " + `${user.displayName}`)
+            .setTitle(message.author.username + " **fait une e-gifle à** " + `${user.displayName}`)
             .setImage(gif2)
         message.channel.send(slap_embed);
 
