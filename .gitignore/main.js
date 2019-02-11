@@ -47,7 +47,7 @@ function changeColor() {
 }
 
 bot.on('ready', () => {
-    bot.user.setActivity("//help | Nage dans sa tasse de thé");
+    bot.user.setActivity("e-help | Nage dans sa tasse de thé");
     bot.user.setStatus("dnd");
     setInterval(changeColor, rainbowrole.speed);
     console.log("Bot Ready !");
