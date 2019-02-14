@@ -180,8 +180,6 @@ bot.on('message', async message => {
     //Commande blush
     if (message.content.startsWith(prefix + "blush")) {
 
-        let user = message.mentions.members.first() || message.guild.members.get(args.join(" "))
-    
         var blush = [
     
             "https://i.imgur.com/YyM2whQ.gif",
