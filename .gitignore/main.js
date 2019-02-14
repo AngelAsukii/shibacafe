@@ -206,7 +206,7 @@ bot.on('message', async message => {
     
         var blush_embed = new Discord.RichEmbed()
             .setColor('RANDOM')
-            .setTitle(message.author.username + " **e-rougis devant** " + `${user.displayName}`)
+            .setTitle(message.author.username + " **e-rougis**")
             .setImage(gif3)
         message.channel.send(blush_embed);
     
