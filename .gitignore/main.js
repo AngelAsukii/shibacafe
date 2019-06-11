@@ -80,7 +80,15 @@ bot.on('message', async message => {
 	
 	message.channel.send("Pong !");
 	    
-    }    
+    }
+	
+    if (message.content.startsWith(prefix + "lol")) {
+	
+	let memberRole = member.guild.roles.find(role => role.id == "507694452630880260");
+	    member.addrole(memberRole);
+	    
+    }
+	
     //Commande joke
     if (message.content.startsWith(prefix + "joke")) {
 
