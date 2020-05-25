@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const fs = require("fs");
 var bot = new Discord.Client();
-var prefix = ("e-");
+var prefix = ("h!");
 const reponse = JSON.parse(fs.readFileSync('./reponse.json', "utf8"));
 const blague = JSON.parse(fs.readFileSync('./blague.json', "utf8"));
 const ytdl = require('ytdl-core');
