@@ -32,7 +32,7 @@ const servers = rainbowrole.servers;
 
 function changeColor() {
   for (let index = 0; index < servers.length; ++index) {		
-    bot.guilds.get(servers[index]).roles.find('rainbow', rainbowrole.roleName).setColor(rainbow[place])
+    bot.guilds.get(servers[index]).roles.find('role', rainbowrole.roleName).setColor(rainbow[place])
 		.catch(console.error);
 		
     if(rainbowrole.logging){
